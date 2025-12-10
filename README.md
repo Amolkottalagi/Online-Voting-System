@@ -51,6 +51,52 @@ This project allows admins to create and manage elections while users can regist
 *Server:- XAMPP 
 
 
+#Installation Guide
+
+Follow these steps to run the project on your system:
+
+1. Install Required Software
+Install XAMPP or WAMP
+Install Any modern browser
+
+2. Download the Project
+
+Clone the repository:
+git clone https://github.com/Amolkottalagi/Online-Voting-System.git
+Or download ZIP file and extract it.
+
+3. Move to Server Directory
+
+Copy the project folder to:
+XAMPP → htdocs
+WAMP → www
+
+4. Start Apache & MySQL
+
+Open XAMPP Control Panel → Start Apache and MySQL.
+
+5. Open Project in Browser
+http://localhost/Online-Voting-System/
+
+🗄️ Database Setup
+
+Open phpMyAdmin
+Create a new database (example: online_voting_db)
+Import the SQL file:
+sql/database.sql
+Update database credentials (if required) inside your PHP files.
+
+🔑 Demo Credentials
+Use these credentials to test the system:
+(You may change them later)
+Admin Login
+Username: admin
+Password: admin123
+Voter Login (Example)
+Username: voter1
+Password: voter123
+
+
 #Future Improvements
 
 *OTP/email verification
